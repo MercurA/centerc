@@ -19,7 +19,7 @@ const SliderNav = ({session, handleSignOut}: SliderNavProps) => {
         <div className={styles.sliderContainer}>
             <div className={`${styles.slideMenu} ${open ? styles.open : styles.closed}`}>
                 <div></div>
-                <div>
+                <div className={styles.image}>
                     <Image
                         width={80}
                         height={80}
